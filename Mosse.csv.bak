@@ -1,9 +1,9 @@
 0;Miss;Red;
-40;Roar of Time;White;Return the battle opponent to their start-of-the-duel state (excluding evolution);140;
+40;Roar of Time;White;Return the battle opponent to their start-of-the-duel state (excluding evolution);140
 4;Miss;Red;
-44;Dragon Claw;White;100;
-96;Corkscrew Crash;White Z-Move;If the battle opponent is knocked out, then after the battle, this Pokémon moves to a point 2 steps away;280;
-96;Devastating Drake;Purple Z-Move;A Pokémon on the field spins. If it spins a Miss or a White Attack of 120 damage or more, it is knocked out;☆☆☆☆;
+44;Dragon Claw;White;100
+96;Corkscrew Crash;White Z-Move;If the battle opponent is knocked out, then after the battle, this Pokémon moves to a point 2 steps away;280
+96;Devastating Drake;Purple Z-Move;A Pokémon on the field spins. If it spins a Miss or a White Attack of 120 damage or more, it is knocked out;☆☆☆☆
 8	Tackle	White		30
 16	Miss	Red		
 24	Take Down	White		80
