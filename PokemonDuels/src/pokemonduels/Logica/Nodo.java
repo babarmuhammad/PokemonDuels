@@ -5,10 +5,67 @@
  */
 package pokemonduels.Logica;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 /**
  *
  * @author babar_muhammad_anas
  */
 public class Nodo {
-    
+        public Integer indice;
+        public List<Integer> vicini;
+        public int x, y;
+        public boolean presentePokemon;
+        public Pokemon pokemon;
+        public boolean selezionato;
+        public Nodo()
+        {
+            vicini = new ArrayList<>();
+            x = 0;
+            y = 0;
+        }
+        public Nodo(int i)
+        {
+            vicini = new ArrayList<>();
+            indice = i;
+            x = 0;
+            y = 0;
+        }
+        public void AddVicino(int n)
+        {
+            vicini.add(n);
+        }
+        
+
+        public HashSet<Integer> Raggiungibili(List<Nodo> mappa, Integer passi)
+        {
+            HashSet<Integer> ris = new HashSet<Integer>();
+            Queue<Pair> daVisitare = new LinkedList();
+            daVisitare.add(new Pair(0, this.indice));
+            if(!presentePokemon)
+                ris.add(indice);
+            while (daVisitare.size() > 0)
+            {
+                Pair pair = daVisitare.poll();
+                if (pair.key >= passi)
+                    continue;
+                //for( Integer vicino: Mappa[pair.value].vicini )
+                Mappa[] array = new Mappa[vicini.size()];
+                vicini.toArray(array);
+                /*for (Integer vicino: array[pair.value])
+                {
+                    if (vicino != indice && !ris.Contains(vicino) && !mappa[vicino].presentePokemon)
+                    {
+                        ris.Add(vicino);
+                        daVisitare.Enqueue(new KeyValuePair<int, int>(pair.Key + 1, vicino));
+                    }
+                }*/
+            }
+
+            return ris;
+        }
 }
