@@ -17,7 +17,7 @@ import java.util.Queue;
  */
 public class Nodo {
         public Integer indice;
-        public List<Integer> vicini;
+        public ArrayList<Integer> vicini;
         public int x, y;
         public boolean presentePokemon;
         public Pokemon pokemon;
@@ -41,7 +41,7 @@ public class Nodo {
         }
         
 
-        public HashSet<Integer> Raggiungibili(List<Nodo> mappa, Integer passi)
+        public HashSet<Integer> Raggiungibili(ArrayList<Nodo> mappa, Integer passi)
         {
             HashSet<Integer> ris = new HashSet<Integer>();
             Queue<Pair> daVisitare = new LinkedList();
@@ -54,16 +54,15 @@ public class Nodo {
                 if (pair.key >= passi)
                     continue;
                 //for( Integer vicino: Mappa[pair.value].vicini )
-                Mappa[] array = new Mappa[vicini.size()];
-                vicini.toArray(array);
-                /*for (Integer vicino: array[pair.value])
+                
+                for (Integer vicino1: vicini)
                 {
-                    if (vicino != indice && !ris.Contains(vicino) && !mappa[vicino].presentePokemon)
+                    if (vicino1 != indice && !ris.contains(vicino1) /*manca controllo presente pokermon*/)
                     {
-                        ris.Add(vicino);
-                        daVisitare.Enqueue(new KeyValuePair<int, int>(pair.Key + 1, vicino));
+                        ris.add(vicino1);
+                        daVisitare.add(new Pair(pair.key + 1, vicino1));
                     }
-                }*/
+                }
             }
 
             return ris;

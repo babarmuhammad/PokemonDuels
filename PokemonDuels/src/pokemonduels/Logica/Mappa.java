@@ -6,9 +6,12 @@
 package pokemonduels.Logica;
 
 import java.awt.Canvas;
+import java.awt.Label;
 import java.awt.Rectangle;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
+import javax.swing.Timer;
 import pokemonduels.Grafica.Grafica;
 
 /**
@@ -17,20 +20,36 @@ import pokemonduels.Grafica.Grafica;
  */
 public class Mappa {
     public List<Nodo> mappa;
+        
         Integer Destinazione;
-        boolean turno;
-        List<Integer> startPosizionamento;
-        Canvas myCanvas;
-        Grafica m;
-        int partiX, partiY;
+        boolean _turno;
+        ArrayList<Integer> startPosizionamento;
+        Integer partiX, partiY;
+        Integer distanza = 0;
         List<Rectangle> Grafica;
-        int PartiPerMano;
-        int PedineMappa,PedineMano;
+        Integer PartiPerMano;
+        Integer PedineMappa, PedineMano;
         Nodo Selezionato;
-        int Nturno,Tvinti;
-        public Giocatore io, altro;
-        //public Ruota r;
+        Integer Nturno, Tvinti;
         //GestioneRuota gr;
-        public int mioAttacco;
-        Timer t;
+        public Integer mioAttacco;
+        Integer turniAPartita = 3;
+        private Object synTurno;
+        ActionListener listener;
+        Timer t = new Timer(0, listener);  
+        Integer tempoRimasto=0;
+        Label timer;
+        
+        public boolean turno;
+            
+        public void controllaTurno(){
+            if(_turno){
+                tempoRimasto = 80;
+                t.start();
+                    
+            }
+            else
+                t.stop();
+            
+        }
 }
