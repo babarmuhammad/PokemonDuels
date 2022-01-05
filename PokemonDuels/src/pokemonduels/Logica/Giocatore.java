@@ -24,5 +24,13 @@ public class Giocatore {
             Materiali = 0;
             Deck = new ArrayList<Pokemon>();
         }
+        
+        public String toCsv()
+        {
+            String mazzo = "";
+            for (Pokemon p:  Deck)
+                mazzo += ";" + p.id;
+            return Username + ";" + Xp + mazzo;
+        }
     }
 
