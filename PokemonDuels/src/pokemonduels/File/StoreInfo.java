@@ -22,7 +22,10 @@ import pokemonduels.Logica.Pokemon;
  */
 public class StoreInfo {
     public List<String> listMosse = new ArrayList<String>();
-    public List<String> listPokemon = new ArrayList<String>();
+    public List<String> listPokemonString = new ArrayList<String>();
+    public List<Pokemon> listPokemon = new ArrayList<Pokemon>();
+    Pokemon pokemon = new Pokemon();
+    
     
     public void creaListaMosse() {
         try {
@@ -37,17 +40,27 @@ public class StoreInfo {
             Logger.getLogger(StoreInfo.class.getName()).log(Level.SEVERE, null, ex);
             }
     }
-    public void creaListaPokemon() {
+    public void creaListaPokemonString() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("Pokemon.csv"));
             String line = reader.readLine();
             
             while(line!=null) {
-                listPokemon.add(line);
+                listPokemonString.add(line);
                 line = reader.readLine();
+                
+                
+                
             }       
             } catch (IOException ex) {
             Logger.getLogger(StoreInfo.class.getName()).log(Level.SEVERE, null, ex);
             }
+    }
+    
+    public void crealistaPokemon(){
+        for(int i=0; i<listPokemonString.size();i++){
+            pokemon.fromCsv(listPokemonString.get(i));
+            listPokemon.add(pokemon);
+        }
     }
 }

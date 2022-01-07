@@ -24,6 +24,10 @@ public class Mossa {
         this.nome = nome;
         this.colore=colore;
     }
+
+    public Mossa() {
+        
+    }
      public void fromCSV(String csv){
          String[] campo=csv.split(";");
          id=Integer.parseInt(campo[0]);

@@ -24,12 +24,12 @@ public class Squadra extends javax.swing.JFrame {
         initComponents();
         
         StoreInfo listaPokemon = new StoreInfo();
-        listaPokemon.creaListaPokemon();
+        listaPokemon.creaListaPokemonString();
         Pokemon pokemon = new Pokemon();
         DefaultListModel<String> model = new DefaultListModel<>();
         JList<String> list = new JList<>(model);
-        for (int i = 0; i < listaPokemon.listPokemon.size(); i++) {
-            pokemon.fromCsv(listaPokemon.listPokemon.get(i));
+        for (int i = 0; i < listaPokemon.listPokemonString.size(); i++) {
+            pokemon.fromCsv(listaPokemon.listPokemonString.get(i));
             model.addElement(pokemon.nome);
             listPokemonGrafica.setModel(model);
         }
