@@ -22,7 +22,7 @@ public class Squadra extends javax.swing.JFrame {
      */
     public Squadra() {
         initComponents();
-        
+
         StoreInfo listaPokemon = new StoreInfo();
         listaPokemon.creaListaPokemonString();
         Pokemon pokemon = new Pokemon();
@@ -107,12 +107,21 @@ public class Squadra extends javax.swing.JFrame {
 
     private void btnAggiungiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAggiungiActionPerformed
         // TODO add your handling code here:
-        Giocatore giocatore=new Giocatore();
-        
-         DefaultListModel<String> model2 = new DefaultListModel<>();
+        Giocatore giocatore = new Giocatore();
+        StoreInfo lista = new StoreInfo();
+        String nomePokemon = listPokemonGrafica.getSelectedValue();
+        DefaultListModel<String> model2 = new DefaultListModel<>();
         JList<String> list2 = new JList<>(model2);
-        model2.addElement(listPokemonGrafica.getSelectedIndex());
-        giocatore.
+        
+        for (int i = 0; i < lista.listPokemon.size(); i++) {
+            if (lista.listPokemon.get(i).nome == nomePokemon) {
+                giocatore.Deck.add(lista.listPokemon.get(i));
+                model2.addElement(listPokemonGrafica.getSelectedValue());
+            }
+
+        }
+        listSquadraGrafica.setModel(model2);
+
     }//GEN-LAST:event_btnAggiungiActionPerformed
 
     /**
