@@ -24,7 +24,7 @@ public class StoreInfo {
     public List<String> listMosse = new ArrayList<String>();
     public List<String> listPokemon = new ArrayList<String>();
     
-    public void creaListaMosse() throws FileNotFoundException{
+    public void creaListaMosse() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("Mosse.csv"));
             String line = reader.readLine();
@@ -37,7 +37,7 @@ public class StoreInfo {
             Logger.getLogger(StoreInfo.class.getName()).log(Level.SEVERE, null, ex);
             }
     }
-    public void creaListaPokemon() throws FileNotFoundException{
+    public void creaListaPokemon() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("Pokemon.csv"));
             String line = reader.readLine();

@@ -1,0 +1,593 @@
+1;Dialga;2;6
+2;Tauros;2;7
+3;Armaldo;1;7
+4;Charmander;3;5
+5;Mightyena;2;5
+6;Ekans;3;5
+7;Bayleef;2;4
+8;Snubbull;2;5
+9;Plusle;3;4
+10;Seedot;2;5
+11;Metagross;1;11
+12;Sentret;2;7
+13;Golem;1;6
+14;Spinarak;3;7
+15;Aipom;3;4
+16;Sandshrew;2;6
+18;Caterpie;1;5
+17;Murkrow;3;6
+19;Mudkip;3;5
+20;Bidoof;2;4
+21;Steelix;1;7
+22;Marill;2;6
+23;Raticate;2;4
+24;Machop;2;5
+25;Luxray;2;7
+26;Poliwag;3;6
+27;Teddiursa;2;5
+28;Tyrogue;2;4
+29;Chespin;2;6
+30;Lugia;2;8
+31;Shinx;3;4
+32;Aron;2;6
+33;Emolga;3;6
+34;Doduo;3;7
+35;Treecko;3;5
+36;Heracross;2;7
+38;Combee;3;5
+39;Squirtle;3;4
+40;Meowth;2;5
+41;Zubat;3;6
+42;Ho-Oh;2;6
+43;Skarmory;2;7
+44;Audino;1;5
+45;Machamp;2;7
+46;Kyogre;2;7
+47;Psyduck;2;5
+48;Spinda;2;5
+49;Shroomish;2;5
+50;Charizard;2;6
+51;Wobbuffet;2;4
+52;Pikachu;2;7
+53;Palkia;2;6
+54;Cacnea;2;4
+55;Froakie;3;5
+56;Dratini;2;5
+57;Eevee;3;7
+58;Minun;3;5
+59;Pinsir;2;6
+60;Feraligatr;1;6
+61;Bagon;2;5
+62;Kabuto;2;7
+63;Geodude;2;6
+64;Bulbasaur;3;6
+65;Magnemite;3;6
+66;Fennekin;3;5
+67;Darkrai;2;6
+68;Absol;2;6
+69;Drowzee;1;4
+70;Salamence;2;5
+71;Mareep;2;4
+72;Exeggcute;2;8
+73;Scyther;2;6
+74;Goomy;1;6
+75;Smoochum;3;6
+76;Spearow;2;6
+77;Gabite;2;6
+78;Dedenne;3;7
+79;Hawlucha;2;6
+80;Groudon;2;6
+81;Nidoran♂;2;5
+82;Fletchling;2;5
+83;Espurr;2;5
+84;Beedrill;3;6
+85;Ledyba;2;8
+86;Rhyhorn;1;6
+87;Torchic;3;4
+88;Mankey;3;5
+89;Zangoose;2;6
+90;Weedle;1;5
+91;Drapion;2;7
+92;Pachirisu;3;8
+93;Venusaur;1;6
+94;Seviper;2;6
+95;Piplup;3;5
+96;Mewtwo;2;5
+97;Weezing;2;4
+98;Goodra;2;6
+99;Girafarig;2;8
+100;Butterfree;2;5
+101;Blastoise;2;5
+102;Lapras;2;7
+103;Staraptor;2;6
+104;Pikachu;2;6
+106;Bronzong;1;7
+107;Sneasel;2;6
+108;Carvanha;2;6
+109;Turtwig;2;5
+110;Mew;3;6
+111;Taillow;2;6
+112;Rayquaza;1;8
+114;Tropius;1;8
+115;Pangoro;2;6
+116;Rattata;2;4
+117;Electabuzz;2;4
+118;Tyranitar;1;6
+119;Zygarde;1;8
+120;Tentacruel;1;6
+121;Snorlax;1;6
+122;Bellsprout;2;6
+123;Voltorb;3;5
+124;Xatu;1;6
+125;Chimchar;3;4
+126;Banette;2;5
+127;Slaking;2;5
+128;Haunter;2;6
+129;Larvitar;2;6
+130;Keldeo;3;7
+131;Giratina;1;8
+132;Hariyama;2;5
+133;Diglett;2;5
+134;Corphish;2;5
+135;Jigglypuff;2;6
+136;Mawile;2;7
+137;Cyndaquil;3;5
+138;Xerneas;2;9
+139;Yveltal;2;8
+140;Liepard;2;6
+141;Bibarel;2;7
+142;Chesnaught;2;6
+143;Poliwhirl;2;5
+144;Lairon;2;7
+145;Skorupi;2;7
+146;Onix;2;6
+147;Gible;1;6
+148;Pancham;3;5
+149;Quilladin;2;6
+150;Graveler;1;6
+152;Koffing;2;5
+153;Gastly;3;5
+154;Hoothoot;2;6
+155;Metapod;0;4
+156;Shelgon;1;5
+158;Tentacool;2;6
+159;Pichu;3;4
+160;Monferno;2;6
+161;Grotle;2;7
+162;Wartortle;2;6
+163;Gyarados;1;6
+164;Frogadier;2;6
+166;Prinplup;2;5
+167;Swellow;2;6
+168;Swampert;1;6
+169;Flaaffy;2;4
+170;Greninja;3;7
+171;Electivire;2;5
+172;Rhydon;1;6
+173;Flygon;2;8
+174;Purrloin;3;5
+175;Ledian;2;7
+176;Sylveon;2;5
+177;Pupitar;3;6
+178;Igglybuff;2;5
+179;Leafeon;2;5
+180;Croconaw;2;4
+181;Munchlax;2;5
+182;Makuhita;2;2
+183;Bronzor;2;6
+185;Golbat;2;6
+186;Rhyperior;1;8
+187;Vaporeon;3;5
+188;Jolteon;3;5
+189;Marshtomp;1;6
+190;Garchomp;2;7
+191;Empoleon;2;7
+192;Poliwrath;2;6
+193;Poochyena;3;5
+196;Luxio;2;7
+197;Hypno;2;5
+198;Magikarp;2;4
+199;Ivysaur;2;6
+200;Elekid;3;4
+201;Natu;2;8
+203;Lucario;2;6
+202;Raichu;2;5
+206;Wigglytuff;2;7
+207;Aggron;1;8
+205;Kakuna;0;5
+209;Totodile;3;4
+208;Infernape;2;6
+210;Politoed;2;6
+211;Gardevoir;2;6
+212;Vibrava;2;7
+213;Nuzleaf;2;5
+214;Shiftry;2;6
+215;Kirlia;2;6
+216;Noctowl;2;6
+217;Ralts;3;5
+218;Deoxys;3;5
+219;Deoxys;2;7
+220;Exeggutor;1;6
+221;Slakoth;1;4
+222;Chikorita;3;4
+223;Glaceon;3;5
+224;Deoxys;2;5
+225;Weavile;2;6
+226;Manaphy;1;5
+227;Heatran;2;10
+229;Deoxys;1;5
+231;Suicune;2;7
+232;Zekrom;2;8
+230;Torterra;1;8
+234;Latios;3;8
+235;Genesect;3;8
+233;Raikou;2;7
+238;Vigoroth;3;4
+237;Latias;3;8
+239;Sliggoo;2;6
+240;Crobat;3;10
+241;Sharpedo;2;6
+242;Mime Jr.;3;8
+243;Talonflame;2;6
+244;Entei;2;5
+245;Quilava;2;4
+228;Mr. Mime;2;8
+246;Braixen;2;5
+247;Fletchinder;3;6
+248;Flareon;3;5
+249;Arbok;2;5
+250;Magmar;2;4
+251;Shuppet;3;4
+252;Seaking;2;5
+253;Delphox;2;7
+254;Magby;3;4
+255;Charmeleon;2;5
+256;Umbreon;3;5
+258;Typhlosion;1;7
+259;Espeon;3;5
+260;Corsola;1;7
+261;Reshiram;2;8
+262;Magmortar;2;4
+263;Goldeen;2;5
+264;Hydreigon;1;8
+265;Trapinch;1;6
+266;Zweilous;2;6
+268;Riolu;3;5
+269;Zapdos;2;7
+270;Vespiquen;2;8
+271;Moltres;2;7
+272;Crawdaunt;2;6
+273;Floatzel;2;6
+274;Articuno;2;7
+275;Mega Venusaur;2;5
+276;Mega Charizard X;3;6
+277;Mega Charizard Y;3;6
+278;Mega Blastoise;2;5
+279;Mega Beedrill;2;5
+280;Dragonair;2;5
+281;Dragonite;1;6
+282;Grovyle;2;5
+283;Sceptile;2;5
+284;Mega Sceptile;3;5
+285;Combusken;2;6
+286;Blaziken;2;7
+287;Mega Blaziken;2;7
+288;Mega Swampert;1;6
+289;Nincada;1;6
+290;Ninjask;3;7
+292;Mega Salamence;2;8
+293;Spiritomb;0;6
+294;Tympole;3;7
+295;Palpitoad;2;6
+296;Seismitoad;2;8
+297;Cottonee;2;6
+298;Whimsicott;3;7
+299;Petilil;2;5
+300;Lilligant;2;5
+303;Gothita;3;4
+304;Gothorita;2;4
+306;Solosis;2;3
+305;Gothitelle;2;5
+307;Duosion;2;4
+308;Reuniclus;2;6
+309;Joltik;3;6
+310;Galvantula;2;6
+311;Stunfisk;1;6
+312;Druddigon;2;5
+314;Heatmor;2;7
+315;Durant;2;8
+316;Cobalion;2;8
+317;Terrakion;2;8
+318;Virizion;2;6
+319;Honedge;2;6
+320;Doublade;2;7
+321;Inkay;2;8
+322;Malamar;2;6
+323;Phantump;2;6
+324;Trevenant;1;6
+325;Pumpkaboo;2;6
+326;Gourgeist;2;8
+327;Bergmite;2;5
+328;Avalugg;1;6
+329;Noibat;3;8
+330;Noivern;2;7
+331;Aegislash Blade Forme;0;6
+332;Aegislash Shield Forme;2;6
+336;Mega Scizor;2;6
+337;Mega Gengar;3;6
+338;Tapu Koko;3;9
+339;Vikavolt;2;8
+340;Magnezone;2;8
+341;Solgaleo;2;7
+342;Tapu Lele;2;9
+343;Scizor;2;7
+344;Lunala;2;7
+345;Gengar;2;6
+346;Chandelure;2;7
+347;Decidueye;2;8
+348;Incineroar;2;7
+349;Tapu Bulu;2;9
+350;Primarina;2;8
+351;Tapu Fini;2;9
+352;Magearna;2;7
+353;Alolan Ninetales;2;8
+354;Electrode;3;4
+355;Magneton;2;8
+357;Alolan Raichu;2;6
+358;Cosmoem;1;6
+359;Golisopod;1;6
+360;Metang;2;7
+361;Cosmog;2;6
+362;Sableye;2;6
+363;Mimikyu;2;8
+364;Dartrix;2;6
+365;Torracat;3;5
+366;Ludicolo;2;6
+367;Mow Rotom;2;7
+368;Brionne;2;6
+369;Azumarill;2;6
+370;Lanturn;2;6
+371;Wash Rotom;2;7
+372;Grubbin;2;5
+373;Charjabug;1;6
+375;Oricorio Pom-Pom Style;2;6
+376;Wimpod;3;6
+377;Beldum;3;5
+378;Oricorio Pau Style;2;6
+379;Litwick;1;6
+380;Lampent;2;8
+381;Alolan Grimer;1;8
+382;Salandit;3;6
+383;Oricorio Sensu Style;2;6
+384;Rowlet;3;6
+385;Litten;3;5
+386;Lombre;2;6
+387;Salazzle;2;7
+388;Oricorio Baile Style;2;6
+389;Popplio;3;6
+390;Delibird;2;6
+391;Stantler;2;6
+392;Togedemaru;3;7
+393;Chinchou;2;6
+394;Lotad;2;6
+395;Shiny Rayquaza;1;8
+397;Shiny Metagross;1;11
+399;Shiny Ho-Oh;2;6
+400;Shiny Gyarados;2;6
+401;Shiny Magikarp;2;4
+402;Mega Gardevoir;2;6
+403;Mega Altaria;2;9
+404;Nihilego;2;7
+405;Mega Mewtwo Y;3;5
+406;Buzzwole;2;8
+407;Mega Gallade;2;6
+408;Mega Mewtwo X;2;6
+409;Pheromosa;2;8
+410;Mega Absol;3;6
+411;Mega Sableye;2;6
+412;Mega Banette;3;5
+413;Mega Gyarados;2;5
+414;Xurkitree;2;7
+415;Celesteela;1;8
+416;Mega Ampharos;2;8
+417;Kartana;3;6
+418;Shaymin Sky Forme;3;7
+419;Mega Aggron;2;7
+420;Mega Tyranitar;2;6
+421;Black Kyurem;3;8
+422;White Kyurem;3;8
+423;Mega Glalie;2;5
+424;Mega Lucario;3;6
+425;Primal Groudon;2;7
+426;Regigigas;0;5
+427;Primal Kyogre;2;7
+428;Keldeo Resolute Form;3;8
+429;Mega Houndoom;2;7
+430;Drampa;1;7
+431;Altaria;2;9
+432;Cresselia;2;6
+433;Toxapex;1;8
+434;Gallade;2;6
+435;Bewear;2;6
+436;Marshadow;3;7
+437;Zoroark;2;7
+438;Drifblim;2;7
+439;Honchkrow;2;6
+440;Ampharos;2;7
+441;Eelektross;1;9
+442;Shaymin Land Forme;2;5
+443;Lurantis;2;5
+444;Regirock;2;6
+445;Meganium;2;5
+446;Regice;2;6
+447;Kyurem;2;8
+448;Registeel;2;6
+449;Arcanine;2;6
+450;Houndoom;2;7
+451;Turtonator;1;8
+452;Milotic;2;5
+453;Shiinotic;1;6
+454;Dragalge;2;6
+455;Alolan Vulpix;3;6
+456;Mareanie;2;6
+457;Toxicroak;2;6
+458;Beheeyem;2;5
+459;Elgyem;2;5
+460;Zorua;3;4
+461;Scrafty;2;7
+462;Rotom;3;8
+463;Mandibuzz;2;6
+464;Eelektrik;2;5
+465;Sigilyph;2;7
+466;Cacturne;1;5
+467;Tangrowth;2;5
+468;Fan Rotom;2;9
+469;Lycanroc Midday Form;2;7
+470;Lycanroc Midnight Form;2;7
+471;Glalie;2;7
+472;Froslass;2;6
+473;Frost Rotom;2;8
+474;Excadrill;2;6
+475;Alolan Sandslash;2;6
+476;Growlithe;3;5
+477;Heat Rotom;2;8
+478;Swablu;3;8
+479;Morelull;2;6
+480;Skrelp;1;6
+481;Croagunk;2;6
+482;Stufful;2;6
+483;Scraggy;2;6
+484;Drifloon;2;6
+485;Vullaby;2;6
+486;Tynamo;2;5
+487;Fomantis;2;7
+488;Tangela;2;4
+489;Rockruff;3;6
+490;Carnivine;2;5
+491;Snorunt;3;5
+492;Relicanth;2;7
+493;Drilbur;2;2
+494;Houndour;3;6
+495;Feebas;2;4
+496;Alolan Sandshrew;2;5
+497;Guzzlord;1;7
+498;Necrozma;2;7
+499;Mega Rayquaza;2;6
+500;Poipole;2;6
+501;Naganadel;3;7
+502;Giratina Origin Forme;1;8
+503;Dusk Mane Necrozma;2;9
+504;Dawn Wings Necrozma;2;9
+505;Mega Metagross;3;11
+507;Shiny Mega Gengar;3;6
+509;Shiny Gengar;2;6
+512;Shiny Eevee;3;7
+514;Shiny Jolteon;3;5
+515;Shiny Flareon;3;5
+516;Shiny Espeon;3;5
+517;Shiny Umbreon;3;5
+518;Shiny Leafeon;3;5
+519;Shiny Glaceon;3;5
+520;Shiny Sylveon;3;5
+523;Stakataka;2;7
+524;Blacephalon;2;8
+525;Ultra Necrozma;3;7
+526;Eevee;3;6
+527;Vaporeon;3;6
+528;Jolteon;3;6
+529;Flareon;3;6
+530;Espeon;3;6
+531;Umbreon;3;6
+532;Leafeon;3;6
+533;Glaceon;3;6
+534;Sylveon;3;6
+535;Mega Alakazam;2;6
+536;Mega Kangaskhan;2;5
+537;Mega Pinsir;2;6
+538;Mega Aerodactyl;3;6
+539;Mega Steelix;2;6
+540;Mega Heracross;2;6
+541;Mega Mawile;2;9
+542;Mega Manectric;3;6
+543;Mega Sharpedo;2;6
+544;Mega Latias;3;7
+545;Mega Latios;3;7
+546;Mega Garchomp;2;6
+547;Mega Abomasnow;1;6
+548;Mega Diancie;2;7
+549;Tornadus Therian Forme;2;5
+550;Thundurus Therian Forme;2;7
+551;Landorus Therian Forme;2;6
+552;Zygarde Complete Forme;1;8
+553;Arceus;2;5
+554;Dialga;2;6
+555;Palkia;2;6
+556;Darkrai;2;6
+557;Pikachu;2;7
+558;Alakazam;2;6
+560;Kangaskhan;2;5
+561;Pinsir;2;6
+562;Gyarados;2;7
+563;Aerodactyl;2;7
+564;Steelix;1;6
+565;Heracross;2;6
+566;Tyranitar;2;6
+567;Celebi;3;6
+568;Mawile;2;7
+569;Manectric;2;7
+570;Sharpedo;2;7
+571;Banette;2;5
+572;Absol;2;5
+574;Mismagius;2;7
+576;Victini;3;8
+577;Haxorus;2;6
+579;Tornadus Incarnate Forme;3;5
+580;Thundurus Incarnate Forme;3;7
+581;Landorus Incarnate Forme;3;6
+582;Tyrantrum;2;6
+583;Aurorus;2;6
+584;Goodra;2;7
+585;Zygarde 10Percent Forme;3;8
+586;Diancie;2;7
+587;Tsareena;2;6
+588;Silvally;3;6
+591;Abra;2;6
+592;Kadabra;2;6
+593;Rapidash;2;7
+594;Omastar;1;7
+596;Aerodactyl;3;8
+597;Misdreavus;2;7
+599;Abomasnow;2;7
+600;Cofagrigus;1;7
+601;Garbodor;2;5
+602;Fraxure;2;6
+603;Volcarona;2;7
+604;Steenee;2;6
+605;Type: Null;2;5
+607;Ponyta;3;7
+608;Slowpoke;1;6
+609;Omanyte;2;7
+610;Electrike;2;5
+612;Snover;2;6
+613;Yamask;2;5
+614;Trubbish;2;5
+615;Axew;3;6
+617;Larvesta;2;7
+618;Tyrunt;2;6
+619;Amaura;2;6
+620;Carbink;1;6
+621;Bounsweet;2;5
+623;Shiny Tapu Koko;2;8
+628;Shiny Mimikyu;2;3
+629;Shiny Mewtwo;2;5
+630;Shiny Charizard;2;6
+633;Shiny Genesect;2;8
+638;Shiny Mega Rayquaza;2;6
+639;Shiny Mega Charizard X;3;6
+640;Shiny Mega Charizard Y;3;6
+641;Shiny Mega Mewtwo X;2;5
+642;Shiny Mega Mewtwo Y;3;5
+643;Shiny Greninja;3;7
+646;Bidoof;3;6
+647;Dawn Wings Necrozma;2;9
+648;Dawn Wings Necrozma;2;9

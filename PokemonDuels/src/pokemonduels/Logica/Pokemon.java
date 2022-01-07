@@ -5,6 +5,7 @@
  */
 package pokemonduels.Logica;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,11 +13,12 @@ import java.util.List;
  * @author babar_muhammad_anas
  */
 public class Pokemon {
+
    public  Integer id;
    public String nome,urlImmagine;
    public Integer Salti;
-   public List<Integer> Mosse;
-   private Integer NMosse;
+   public List<Integer> Mosse=new ArrayList<Integer>();
+   private Integer NMosse=0;
    
    
    public void fromCsv(String csv){
@@ -29,7 +31,21 @@ public class Pokemon {
     urlImmagine=id+"png";
         
 }
+      public Pokemon(Integer id, String nome, String urlImmagine, Integer Salti) {
+        this.id = id;
+        this.nome = nome;
+        this.urlImmagine = urlImmagine;
+        this.Salti = Salti;
+    }
+      public Pokemon(){
+      id = 0;
+        nome = "";
+        urlImmagine = "";
+        Salti = 0;
+      }
+      
 }
+    
 
 
 

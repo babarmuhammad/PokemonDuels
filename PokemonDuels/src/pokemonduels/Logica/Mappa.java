@@ -6,13 +6,14 @@
 package pokemonduels.Logica;
 
 import java.awt.Canvas;
+import java.awt.Graphics;
 import java.awt.Label;
 import java.awt.Rectangle;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.Timer;
-import pokemonduels.Grafica.Grafica;
+
 
 /**
  *
@@ -52,4 +53,11 @@ public class Mappa {
                 t.stop();
             
         }
+        public void DisegnaMappa(){
+           
+            
+                    }
 }
+         
+        
+
