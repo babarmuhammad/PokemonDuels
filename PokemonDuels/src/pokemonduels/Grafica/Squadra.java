@@ -20,19 +20,26 @@ public class Squadra extends javax.swing.JFrame {
     /**
      * Creates new form Squadra
      */
+    DefaultListModel<String> model2;
+    Giocatore giocatore;
     public Squadra() {
         initComponents();
 
         StoreInfo listaPokemon = new StoreInfo();
-        listaPokemon.creaListaPokemonString();
+        listaPokemon.crealistaPokemon();
         Pokemon pokemon = new Pokemon();
         DefaultListModel<String> model = new DefaultListModel<>();
         JList<String> list = new JList<>(model);
-        for (int i = 0; i < listaPokemon.listPokemonString.size(); i++) {
-            pokemon.fromCsv(listaPokemon.listPokemonString.get(i));
-            model.addElement(pokemon.nome);
+        for (int i = 0; i < listaPokemon.listPokemon.size(); i++) {
+            model.addElement(listaPokemon.listPokemon.get(i).nome);
+            String nome = listaPokemon.listPokemon.get(i).nome;
             listPokemonGrafica.setModel(model);
+            
         }
+        
+        //
+        model2 = new DefaultListModel<>();
+        giocatore = new Giocatore();
 
     }
 
@@ -107,20 +114,23 @@ public class Squadra extends javax.swing.JFrame {
 
     private void btnAggiungiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAggiungiActionPerformed
         // TODO add your handling code here:
-        Giocatore giocatore = new Giocatore();
+        
         StoreInfo lista = new StoreInfo();
+        lista.crealistaPokemon();
         String nomePokemon = listPokemonGrafica.getSelectedValue();
-        DefaultListModel<String> model2 = new DefaultListModel<>();
+        
         JList<String> list2 = new JList<>(model2);
         
+        if(giocatore.Deck.size() < 6 ){
         for (int i = 0; i < lista.listPokemon.size(); i++) {
-            if (lista.listPokemon.get(i).nome == nomePokemon) {
+            if (lista.listPokemon.get(i).nome.equals(nomePokemon) && !model2.contains(lista.listPokemon.get(i).nome)) {
                 giocatore.Deck.add(lista.listPokemon.get(i));
-                model2.addElement(listPokemonGrafica.getSelectedValue());
+                model2.addElement(lista.listPokemon.get(i).nome);
             }
-
         }
         listSquadraGrafica.setModel(model2);
+        }
+        
 
     }//GEN-LAST:event_btnAggiungiActionPerformed
 

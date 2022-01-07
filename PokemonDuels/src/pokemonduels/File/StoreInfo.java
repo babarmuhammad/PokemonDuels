@@ -24,7 +24,6 @@ public class StoreInfo {
     public List<String> listMosse = new ArrayList<String>();
     public List<String> listPokemonString = new ArrayList<String>();
     public List<Pokemon> listPokemon = new ArrayList<Pokemon>();
-    Pokemon pokemon = new Pokemon();
     
     
     public void creaListaMosse() {
@@ -48,9 +47,6 @@ public class StoreInfo {
             while(line!=null) {
                 listPokemonString.add(line);
                 line = reader.readLine();
-                
-                
-                
             }       
             } catch (IOException ex) {
             Logger.getLogger(StoreInfo.class.getName()).log(Level.SEVERE, null, ex);
@@ -58,9 +54,13 @@ public class StoreInfo {
     }
     
     public void crealistaPokemon(){
+        creaListaPokemonString();
+        
+    
         for(int i=0; i<listPokemonString.size();i++){
-            pokemon.fromCsv(listPokemonString.get(i));
+            Pokemon pokemon = new Pokemon(listPokemonString.get(i));
             listPokemon.add(pokemon);
         }
     }
+    
 }

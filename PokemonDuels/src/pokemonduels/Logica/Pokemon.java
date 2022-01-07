@@ -21,16 +21,7 @@ public class Pokemon {
    private Integer NMosse=0;
    
    
-   public void fromCsv(String csv){
-    String[]campo=csv.split(";");
-    id=Integer.parseInt(campo[0]);
-    nome=campo[1];
-    Salti=Integer.parseInt(campo[2]);
-    for(Integer i=0;i<Integer.parseInt(campo[3]);i++)
-        Mosse.add(NMosse++);
-    urlImmagine=id+"png";
-        
-}
+   
       public Pokemon(Integer id, String nome, String urlImmagine, Integer Salti) {
         this.id = id;
         this.nome = nome;
@@ -43,6 +34,16 @@ public class Pokemon {
         urlImmagine = "";
         Salti = 0;
       }
+      public Pokemon(String csv){
+           String[]campo=csv.split(";");
+        id=Integer.parseInt(campo[0]);
+    nome=campo[1];
+    Salti=Integer.parseInt(campo[2]);
+    for(Integer i=0;i<Integer.parseInt(campo[3]);i++)
+        Mosse.add(NMosse++);
+    urlImmagine=id+".png";
+      }
+      
       
 }
     
