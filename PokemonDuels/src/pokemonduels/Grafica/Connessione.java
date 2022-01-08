@@ -13,8 +13,12 @@ public class Connessione extends javax.swing.JFrame {
     /**
      * Creates new form Connessione
      */
+    String Ip,Porta,NomeGiocatore;
     public Connessione() {
         initComponents();
+        Ip="";
+        Porta="";
+        NomeGiocatore="";
     }
 
     /**
@@ -40,9 +44,20 @@ public class Connessione extends javax.swing.JFrame {
 
         jLabel2.setText("IP");
 
+        txtPorta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPortaActionPerformed(evt);
+            }
+        });
+
         jLabel3.setText("Nome giocatore");
 
         txtAvanti.setText("Avanti");
+        txtAvanti.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAvantiActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -87,6 +102,21 @@ public class Connessione extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void txtAvantiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAvantiActionPerformed
+        // TODO add your handling code here:
+        Porta=txtPorta.getText();
+        Ip=txtIP.getText();
+        NomeGiocatore=txtNome.getText();
+        this.setVisible(false);
+        new Grafica().setVisible(true);
+    }//GEN-LAST:event_txtAvantiActionPerformed
+
+    private void txtPortaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPortaActionPerformed
+        // TODO add your handling code here:
+        
+        
+    }//GEN-LAST:event_txtPortaActionPerformed
 
     /**
      * @param args the command line arguments

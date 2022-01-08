@@ -4,6 +4,8 @@
  */
 package pokemonduels.Grafica;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.DefaultListModel;
 import javax.swing.JList;
 import pokemonduels.DatiCondivisi;
@@ -21,11 +23,17 @@ public class Squadra extends javax.swing.JFrame {
      * Creates new form Squadra
      */
     DefaultListModel<String> model2;
+    DefaultListModel<String> model3;
     Giocatore giocatore;
+    
     public Squadra() {
         initComponents();
-
-        StoreInfo listaPokemon = new StoreInfo();
+        
+        giocatore = new Giocatore();
+        model2 = new DefaultListModel<>();
+        model3=new DefaultListModel<>();
+        inizializzaSquadra();
+      StoreInfo listaPokemon = new StoreInfo();
         listaPokemon.crealistaPokemon();
         Pokemon pokemon = new Pokemon();
         DefaultListModel<String> model = new DefaultListModel<>();
@@ -38,9 +46,17 @@ public class Squadra extends javax.swing.JFrame {
         }
         
         //
-        model2 = new DefaultListModel<>();
-        giocatore = new Giocatore();
+        
+        
 
+    }
+    private void inizializzaSquadra(){
+         JList<String> list3 = new JList<>(model3);
+    for(int i=0;i<giocatore.Deck.size();i++){
+        model3.addElement(giocatore.Deck.get(i).nome);
+        listSquadraGrafica.setModel(model3);
+    }
+    
     }
 
     /**
@@ -73,6 +89,11 @@ public class Squadra extends javax.swing.JFrame {
         });
 
         jButton2.setText("Torna al menù");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -119,6 +140,7 @@ public class Squadra extends javax.swing.JFrame {
         lista.crealistaPokemon();
         String nomePokemon = listPokemonGrafica.getSelectedValue();
         
+        
         JList<String> list2 = new JList<>(model2);
         
         if(giocatore.Deck.size() < 6 ){
@@ -126,6 +148,7 @@ public class Squadra extends javax.swing.JFrame {
             if (lista.listPokemon.get(i).nome.equals(nomePokemon) && !model2.contains(lista.listPokemon.get(i).nome)) {
                 giocatore.Deck.add(lista.listPokemon.get(i));
                 model2.addElement(lista.listPokemon.get(i).nome);
+                
             }
         }
         listSquadraGrafica.setModel(model2);
@@ -133,6 +156,13 @@ public class Squadra extends javax.swing.JFrame {
         
 
     }//GEN-LAST:event_btnAggiungiActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        this.setVisible(false);
+        
+        new Menu().setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
