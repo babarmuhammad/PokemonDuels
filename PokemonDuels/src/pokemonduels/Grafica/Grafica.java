@@ -14,7 +14,7 @@ import javax.swing.JPanel;
  * @author babar
  */
 public class Grafica extends javax.swing.JFrame {
-    JPanel panel;
+JPanel panel;
     /**
      * Creates new form Grafica
      */
@@ -28,11 +28,11 @@ public class Grafica extends javax.swing.JFrame {
         int unitaX = this.getWidth()/13;
         int unitaY = this.getHeight()/5;
         int bottoni = unitaX*unitaY+1;
-        panel=new JPanel(new GridLayout(1000, 1000));
+        panel=new JPanel(new GridLayout(unitaX, unitaY));
         
-        for(int i=1;i<=1000/13;i++)
+        for(int i=1;i<=unitaX;i++)
         {
-            for(int j=1;j<=1000/5;j++)
+            for(int j=1;j<=unitaY;j++)
             {
                 JButton btn=new JButton(String.valueOf(i));
                 panel.add(btn);
