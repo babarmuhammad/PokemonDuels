@@ -26,6 +26,7 @@ public class StoreInfo {
     public List<Pokemon> listPokemon = new ArrayList<Pokemon>();
     
     
+    
     public void creaListaMosse() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("Mosse.csv"));
@@ -64,3 +65,4 @@ public class StoreInfo {
     }
     
 }
+

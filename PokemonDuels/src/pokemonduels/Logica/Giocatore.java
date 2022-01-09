@@ -6,6 +6,7 @@
 package pokemonduels.Logica;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -15,7 +16,7 @@ public class Giocatore {
     public Integer Xp;
         public String Username;
         public int Materiali;
-        public ArrayList<Pokemon> Deck;
+        public List<Pokemon> Deck;
 
         public Giocatore()
         {
