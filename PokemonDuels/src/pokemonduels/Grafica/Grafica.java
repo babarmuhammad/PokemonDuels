@@ -6,6 +6,8 @@
 package pokemonduels.Grafica;
 
 import java.awt.GridLayout;
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
@@ -15,33 +17,27 @@ import javax.swing.JPanel;
  */
 public class Grafica extends javax.swing.JFrame {
 JPanel panel;
+   public ArrayList<JButton> bottone;
+        int indice;
     /**
      * Creates new form Grafica
      */
     public Grafica() {
         initComponents();
-         
-    
-        
-        
-        
+      
         int unitaX = this.getWidth()/13;
         int unitaY = this.getHeight()/5;
         int bottoni = unitaX*unitaY+1;
+        indice=0;
+        bottone=new ArrayList<JButton>();
         panel=new JPanel(new GridLayout(unitaX, unitaY));
-        
-        for(int i=1;i<=unitaX;i++)
-        {
-            for(int j=1;j<=unitaY;j++)
-            {
-                JButton btn=new JButton(String.valueOf(i));
-                panel.add(btn);
-            }
-        }
-        add(panel);
-        pack();
-        setVisible(true);
-        
+        JButton boton =new JButton(String.valueOf(indice));
+        panel.add(boton);
+        bottone.add(boton);
+        indice++;
+        panel.updateUI();
+
+       
     }
 
     /**
@@ -53,15 +49,15 @@ JPanel panel;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 756, Short.MAX_VALUE)
+            .addGap(0, 663, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 391, Short.MAX_VALUE)
+            .addGap(0, 433, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
